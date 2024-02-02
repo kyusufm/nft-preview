@@ -1,0 +1,84 @@
+
+
+body {
+    font-family: Outfit;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 280px;
+    padding: 18px;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.card-footer {
+    display: flex;
+}
+
+.avatar {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-right: 6px;
+}
+
+.avatar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px white;
+}
+
+
+.price, .time{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.image {
+   width: 100%; 
+   border-radius: 12px;
+}
+
+.icon {
+    
+    margin: 0;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
+
+.title, .name{
+    color: hsl(0, 0%, 100%);
+}
+
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+/* typo */
+h1 {
+    font-size: 18px;
+}
+
+.description {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
